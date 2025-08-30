@@ -1,0 +1,7 @@
+Importing plotly failed. Interactive plots will not work.
+2025-08-30 08:17:46,931 - __main__ - INFO - Loaded existing models successfully
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+On macOS, try disabling the 'AirPlay Receiver' service from System Preferences -> General -> AirDrop & Handoff.
