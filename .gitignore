@@ -1,0 +1,9 @@
+/backend/node_modules
+/backend/dist
+/backend/build
+/backend/logs
+/backend/coverage
+/backend/test-results
+/backend/test-reports
+/backend/test-coverage
+/backend/test-reports
