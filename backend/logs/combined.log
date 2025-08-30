@@ -1,0 +1,285 @@
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:08.405Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:08.408Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:08.408Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:08.409Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:08.420Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:08.424Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:08.425Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:08.425Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:15.559Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:15.563Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:15.563Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:15.563Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:15.563Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:15.566Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:15.567Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:15.568Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:15.568Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:23.015Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:23.018Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:23.018Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:23.019Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:23.019Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:23.022Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:23.023Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:23.023Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:23.023Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:29.885Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:29.889Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:29.889Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:29.890Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:29.890Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:29.893Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:29.894Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:29.894Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:29.894Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:38.585Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:38.589Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:38.589Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:38.590Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:38.590Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:38.593Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:38.594Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:38.594Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:05:38.594Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:05.508Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:05.512Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:05.512Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:05.512Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:05.512Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:05.518Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:05.519Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:05.519Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:05.519Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:12.556Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:12.559Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:12.559Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:12.560Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:12.560Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:12.563Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:12.564Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:12.564Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:12.564Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:20.140Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:20.144Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:20.144Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:20.144Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:20.144Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:20.147Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:20.149Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:20.149Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:20.149Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:27.714Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:27.717Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:27.717Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:27.718Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:27.718Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:27.721Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:27.722Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:27.722Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:27.722Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:35.370Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:35.373Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:35.373Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:35.374Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:35.374Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:35.377Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:35.378Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:35.378Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:35.378Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:41.835Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:41.839Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:41.840Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:41.840Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:41.840Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:41.843Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:41.845Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:41.845Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:41.845Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:53.381Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:53.385Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:53.385Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:53.385Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:53.385Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:53.388Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:53.390Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:53.390Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:06:53.390Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:07.749Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:07.752Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:07.752Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:07.753Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:07.753Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:07.756Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:07.757Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:07.757Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:07.757Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:22.454Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:22.457Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:22.457Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:22.458Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:22.458Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:22.460Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:22.462Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:22.462Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:22.462Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:37.316Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:37.319Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:37.319Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:37.320Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:37.320Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:37.323Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3000","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:37.324Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3000/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:37.324Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3000/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:07:37.324Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:18.010Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:48.977Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:48.981Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:48.981Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:48.981Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:48.982Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:48.985Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3001","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:48.986Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3001/health","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:48.986Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3001/api","service":"coastal-threat-backend","timestamp":"2025-08-29T21:09:48.987Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"coastal-threat-backend","timestamp":"2025-08-29T21:10:47.865Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.345Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.348Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.348Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.349Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.349Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.352Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3001","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.354Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3001/health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.354Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3001/api","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.354Z"}
+{"level":"info","message":"🎯 Demo endpoints (no auth required):","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.354Z"}
+{"level":"info","message":"   - Demo overview: http://localhost:3001/demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.354Z"}
+{"level":"info","message":"   - System status: http://localhost:3001/status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.354Z"}
+{"level":"info","message":"   - Sensor data: http://localhost:3001/demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.354Z"}
+{"level":"info","message":"   - Active alerts: http://localhost:3001/demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.354Z"}
+{"level":"info","message":"   - Analytics: http://localhost:3001/demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:09.354Z"}
+{"ip":"::1","level":"info","message":"GET /health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:14.006Z","userAgent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"GET /demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:17.184Z","userAgent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"GET /demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:19.514Z","userAgent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"GET /demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:21.795Z","userAgent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"GET /status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:23.938Z","userAgent":"curl/8.7.1"}
+{"ip":"::1","level":"info","message":"GET /demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:26.224Z","userAgent":"curl/8.7.1"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.505Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.513Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.513Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.514Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.514Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.521Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3001","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.524Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3001/health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.524Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3001/api","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.524Z"}
+{"level":"info","message":"🎯 Demo endpoints (no auth required):","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.525Z"}
+{"level":"info","message":"   - Demo overview: http://localhost:3001/demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.525Z"}
+{"level":"info","message":"   - System status: http://localhost:3001/status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.525Z"}
+{"level":"info","message":"   - Sensor data: http://localhost:3001/demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.525Z"}
+{"level":"info","message":"   - Active alerts: http://localhost:3001/demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.525Z"}
+{"level":"info","message":"   - Analytics: http://localhost:3001/demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:36.525Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.812Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.815Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.815Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.816Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.816Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.819Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3001","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.820Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3001/health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.820Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3001/api","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.820Z"}
+{"level":"info","message":"🎯 Demo endpoints (no auth required):","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.820Z"}
+{"level":"info","message":"   - Demo overview: http://localhost:3001/demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.820Z"}
+{"level":"info","message":"   - System status: http://localhost:3001/status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.820Z"}
+{"level":"info","message":"   - Sensor data: http://localhost:3001/demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.820Z"}
+{"level":"info","message":"   - Active alerts: http://localhost:3001/demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.820Z"}
+{"level":"info","message":"   - Analytics: http://localhost:3001/demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:37.820Z"}
+{"ip":"::1","level":"info","message":"GET /health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:43.318Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:43.830Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:44.336Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:44.840Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:45.346Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:31:45.851Z","userAgent":"axios/1.11.0"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.012Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.018Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.018Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.019Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.019Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.024Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3001","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.025Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3001/health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.026Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3001/api","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.026Z"}
+{"level":"info","message":"🎯 Demo endpoints (no auth required):","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.026Z"}
+{"level":"info","message":"   - Demo overview: http://localhost:3001/demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.026Z"}
+{"level":"info","message":"   - System status: http://localhost:3001/status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.026Z"}
+{"level":"info","message":"   - Sensor data: http://localhost:3001/demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.026Z"}
+{"level":"info","message":"   - Active alerts: http://localhost:3001/demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.026Z"}
+{"level":"info","message":"   - Analytics: http://localhost:3001/demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:33:24.026Z"}
+{"ip":"::1","level":"info","message":"GET /health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:49:32.843Z","userAgent":"curl/8.7.1"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.975Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.978Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.978Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.979Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.979Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.982Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3001","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.983Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3001/health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.983Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3001/api","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.983Z"}
+{"level":"info","message":"🎯 Demo endpoints (no auth required):","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.983Z"}
+{"level":"info","message":"   - Demo overview: http://localhost:3001/demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.983Z"}
+{"level":"info","message":"   - System status: http://localhost:3001/status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.983Z"}
+{"level":"info","message":"   - Sensor data: http://localhost:3001/demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.983Z"}
+{"level":"info","message":"   - Active alerts: http://localhost:3001/demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.983Z"}
+{"level":"info","message":"   - Analytics: http://localhost:3001/demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:44.983Z"}
+{"ip":"::1","level":"info","message":"GET /health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:52.555Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:52.618Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:52.621Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:52.622Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:52.625Z","userAgent":"axios/1.11.0"}
+{"ip":"::1","level":"info","message":"GET /demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:50:52.627Z","userAgent":"axios/1.11.0"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.382Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.390Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.390Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.390Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.390Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.393Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3001","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.394Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3001/health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.394Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3001/api","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.394Z"}
+{"level":"info","message":"🎯 Demo endpoints (no auth required):","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.395Z"}
+{"level":"info","message":"   - Demo overview: http://localhost:3001/demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.395Z"}
+{"level":"info","message":"   - System status: http://localhost:3001/status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.395Z"}
+{"level":"info","message":"   - Sensor data: http://localhost:3001/demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.395Z"}
+{"level":"info","message":"   - Active alerts: http://localhost:3001/demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.395Z"}
+{"level":"info","message":"   - Analytics: http://localhost:3001/demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:52:48.395Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.550Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.554Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.554Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.554Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.554Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.557Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3001","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.558Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3001/health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.558Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3001/api","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.558Z"}
+{"level":"info","message":"🎯 Demo endpoints (no auth required):","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.559Z"}
+{"level":"info","message":"   - Demo overview: http://localhost:3001/demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.559Z"}
+{"level":"info","message":"   - System status: http://localhost:3001/status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.559Z"}
+{"level":"info","message":"   - Sensor data: http://localhost:3001/demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.559Z"}
+{"level":"info","message":"   - Active alerts: http://localhost:3001/demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.559Z"}
+{"level":"info","message":"   - Analytics: http://localhost:3001/demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:53:20.559Z"}
+{"level":"info","message":"Initializing Firebase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.279Z"}
+{"level":"warn","message":"Firebase not available - running in demo mode","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.282Z"}
+{"level":"info","message":"Initializing Supabase...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.283Z"}
+{"level":"warn","message":"Supabase not available - running in demo mode with mock data only","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.283Z"}
+{"level":"info","message":"Starting mock data service...","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.283Z"}
+{"level":"info","message":"All services initialized successfully","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.286Z"}
+{"level":"info","message":"🚀 Coastal Threat Backend running on port 3001","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.287Z"}
+{"level":"info","message":"📊 Health check: http://localhost:3001/health","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.287Z"}
+{"level":"info","message":"🔗 API Base: http://localhost:3001/api","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.287Z"}
+{"level":"info","message":"🎯 Demo endpoints (no auth required):","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.287Z"}
+{"level":"info","message":"   - Demo overview: http://localhost:3001/demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.288Z"}
+{"level":"info","message":"   - System status: http://localhost:3001/status","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.288Z"}
+{"level":"info","message":"   - Sensor data: http://localhost:3001/demo/sensors","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.288Z"}
+{"level":"info","message":"   - Active alerts: http://localhost:3001/demo/alerts","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.288Z"}
+{"level":"info","message":"   - Analytics: http://localhost:3001/demo/analytics","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:00.288Z"}
+{"ip":"::1","level":"info","message":"GET /demo","service":"coastal-threat-backend","timestamp":"2025-08-30T02:54:39.424Z","userAgent":"curl/8.7.1"}
