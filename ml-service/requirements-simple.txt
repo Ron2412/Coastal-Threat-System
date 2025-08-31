@@ -1,7 +1,0 @@
-# Essential packages for tide prediction ML
-scikit-learn
-pandas
-numpy
-supabase
-python-dotenv
-joblib

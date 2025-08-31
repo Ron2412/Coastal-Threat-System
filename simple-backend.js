@@ -1,140 +1,39 @@
 import express from 'express';
 import cors from 'cors';
+import { createClient } from '@supabase/supabase-js';
+
 const app = express();
 const port = 3001;
+
+// Environment variables
+const supabaseUrl = process.env.SUPABASE_URL || 'https://vswnzvzmbbbscctuyfzu.supabase.co';
+const supabaseKey = process.env.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZzd256dnptYmJic2NjdHV5Znp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY1ODcwNDMsImV4cCI6MjA1MjE2MzA0M30.qKLKKZFBfJKJGJKJGJKJGJKJGJKJGJKJGJKJGJKJGJK';
+
+
+// Initialize Supabase client
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 // Enable CORS for all origins
 app.use(cors({
   origin: [
     'http://localhost:3000',
     'http://localhost:3002', 
+    'http://localhost:3003',
     'http://localhost:3005',
     'http://localhost:5173',
     'http://127.0.0.1:3000',
     'http://127.0.0.1:3002',
+    'http://127.0.0.1:3003',
     'http://127.0.0.1:3005',
     'http://127.0.0.1:5173'
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
+  allowedHeaders: ['Content-Type', 'X-Requested-With']
 }));
 
 app.use(express.json());
 
-// Mock coastal locations data
-const coastalLocations = [
-  {
-    id: 1,
-    name: 'Mumbai',
-    country: 'India',
-    region: 'West Coast',
-    coordinates: { lat: 19.0760, lng: 72.8777 },
-    risk_level: 'high',
-    threats: ['flooding', 'storm_surge', 'erosion'],
-    population: 20411000,
-    description: 'Major financial hub with high coastal vulnerability'
-  },
-  {
-    id: 2,
-    name: 'Chennai',
-    country: 'India', 
-    region: 'East Coast',
-    coordinates: { lat: 13.0827, lng: 80.2707 },
-    risk_level: 'high',
-    threats: ['cyclones', 'flooding', 'erosion'],
-    population: 7088000,
-    description: 'Major port city vulnerable to cyclones'
-  },
-  {
-    id: 3,
-    name: 'Kolkata',
-    country: 'India',
-    region: 'East Coast', 
-    coordinates: { lat: 22.5726, lng: 88.3639 },
-    risk_level: 'high',
-    threats: ['cyclones', 'flooding', 'sea_level_rise'],
-    population: 4496000,
-    description: 'River delta city with multiple coastal threats'
-  },
-  {
-    id: 4,
-    name: 'Cochin',
-    country: 'India',
-    region: 'West Coast',
-    coordinates: { lat: 9.9312, lng: 76.2673 },
-    risk_level: 'medium',
-    threats: ['flooding', 'erosion'],
-    population: 677000,
-    description: 'Important port with moderate risk levels'
-  },
-  {
-    id: 5,
-    name: 'Mangalore',
-    country: 'India',
-    region: 'West Coast',
-    coordinates: { lat: 12.9141, lng: 74.8560 },
-    risk_level: 'medium', 
-    threats: ['flooding', 'erosion'],
-    population: 488968,
-    description: 'Coastal city with growing industrial activity'
-  },
-  {
-    id: 6,
-    name: 'Paradip',
-    country: 'India',
-    region: 'East Coast',
-    coordinates: { lat: 20.3100, lng: 86.6094 },
-    risk_level: 'high',
-    threats: ['cyclones', 'storm_surge', 'erosion'],
-    population: 75000,
-    description: 'Major port vulnerable to severe cyclones'
-  },
-  {
-    id: 7,
-    name: 'Visakhapatnam',
-    country: 'India',
-    region: 'East Coast',
-    coordinates: { lat: 17.6868, lng: 83.2185 },
-    risk_level: 'high',
-    threats: ['cyclones', 'flooding', 'erosion'],
-    population: 2035922,
-    description: 'Industrial port city with high cyclone risk'
-  },
-  {
-    id: 8,
-    name: 'Tuticorin',
-    country: 'India',
-    region: 'South Coast',
-    coordinates: { lat: 8.7642, lng: 78.1348 },
-    risk_level: 'medium',
-    threats: ['flooding', 'erosion'],
-    population: 237817,
-    description: 'Pearl fishing port with moderate threats'
-  },
-  {
-    id: 9,
-    name: 'Kandla',
-    country: 'India',
-    region: 'West Coast',
-    coordinates: { lat: 23.0333, lng: 70.2167 },
-    risk_level: 'medium',
-    threats: ['flooding', 'erosion'],
-    population: 100000,
-    description: 'Major cargo port in Gujarat'
-  },
-  {
-    id: 10,
-    name: 'Marmagao',
-    country: 'India',
-    region: 'West Coast',
-    coordinates: { lat: 15.4000, lng: 73.8000 },
-    risk_level: 'medium',
-    threats: ['flooding', 'erosion'],
-    population: 100000,
-    description: 'Iron ore export port in Goa'
-  }
-];
 
 // Health check endpoint
 app.get('/health', (req, res) => {
@@ -146,80 +45,126 @@ app.get('/health', (req, res) => {
   });
 });
 
-// Get all coastal locations
-app.get('/api/coastal/locations', (req, res) => {
-  res.json(coastalLocations);
+// Get all coastal locations (public for testing)
+app.get('/api/coastal/locations', async (req, res) => {
+  try {
+    const { data: locations, error } = await supabase
+      .from('coastal_locations')
+      .select('*')
+      .order('id');
+
+    if (error) {
+      console.error('Error fetching locations:', error);
+      return res.status(500).json({ error: 'Failed to fetch locations' });
+    }
+
+    res.json(locations || []);
+  } catch (error) {
+    console.error('Database error:', error);
+    res.status(500).json({ error: 'Database connection failed' });
+  }
 });
 
-// Get location by ID
-app.get('/api/coastal/locations/:id', (req, res) => {
-  const id = parseInt(req.params.id);
-  const location = coastalLocations.find(loc => loc.id === id);
-  
-  if (!location) {
-    return res.status(404).json({ error: 'Location not found' });
+// Get location by ID (public for testing)
+app.get('/api/coastal/locations/:id', async (req, res) => {
+  try {
+    const id = parseInt(req.params.id);
+    const { data: location, error } = await supabase
+      .from('coastal_locations')
+      .select('*')
+      .eq('id', id)
+      .single();
+
+    if (error || !location) {
+      return res.status(404).json({ error: 'Location not found' });
+    }
+
+    res.json(location);
+  } catch (error) {
+    console.error('Database error:', error);
+    res.status(500).json({ error: 'Database connection failed' });
   }
-  
-  res.json(location);
 });
 
-// Search locations
-app.get('/api/coastal/search', (req, res) => {
-  const query = req.query.q?.toLowerCase();
-  
-  if (!query) {
-    return res.json(coastalLocations);
+// Search locations (public for testing)
+app.get('/api/coastal/search', async (req, res) => {
+  try {
+    const query = req.query.q?.toLowerCase();
+    
+    if (!query) {
+      const { data: locations, error } = await supabase
+        .from('coastal_locations')
+        .select('*')
+        .order('id');
+      
+      if (error) throw error;
+      return res.json(locations || []);
+    }
+    
+    const { data: filtered, error } = await supabase
+      .from('coastal_locations')
+      .select('*')
+      .or(`name.ilike.%${query}%,country.ilike.%${query}%,region.ilike.%${query}%,description.ilike.%${query}%`)
+      .order('id');
+    
+    if (error) throw error;
+    res.json(filtered || []);
+  } catch (error) {
+    console.error('Search error:', error);
+    res.status(500).json({ error: 'Search failed' });
   }
-  
-  const filtered = coastalLocations.filter(location => 
-    location.name.toLowerCase().includes(query) ||
-    location.country.toLowerCase().includes(query) ||
-    location.region.toLowerCase().includes(query) ||
-    location.description.toLowerCase().includes(query)
-  );
-  
-  res.json(filtered);
 });
 
 // Get location statistics
-app.get('/api/coastal/stats', (req, res) => {
-  const stats = {
-    total: coastalLocations.length,
-    byCountry: {},
-    byRegion: {},
-    byRiskLevel: {},
-    averagePopulation: 0
-  };
-  
-  let totalPopulation = 0;
-  
-  coastalLocations.forEach(location => {
-    // Count by country
-    stats.byCountry[location.country] = (stats.byCountry[location.country] || 0) + 1;
+app.get('/api/coastal/stats', async (req, res) => {
+  try {
+    const { data: locations, error } = await supabase
+      .from('coastal_locations')
+      .select('*');
+
+    if (error) {
+      console.error('Database error:', error);
+      return res.status(500).json({ error: 'Failed to fetch statistics' });
+    }
+
+    const stats = {
+      total_locations: locations?.length || 0,
+      high_risk: locations?.filter(loc => loc.risk_level === 'high').length || 0,
+      medium_risk: locations?.filter(loc => loc.risk_level === 'medium').length || 0,
+      low_risk: locations?.filter(loc => loc.risk_level === 'low').length || 0,
+      total_population: locations?.reduce((sum, loc) => sum + (loc.population || 0), 0) || 0,
+      regions: [...new Set(locations?.map(loc => loc.region).filter(Boolean) || [])],
+      threats: [...new Set(locations?.flatMap(loc => loc.threats || []).filter(Boolean) || [])]
+    };
     
-    // Count by region
-    stats.byRegion[location.region] = (stats.byRegion[location.region] || 0) + 1;
-    
-    // Count by risk level
-    stats.byRiskLevel[location.risk_level] = (stats.byRiskLevel[location.risk_level] || 0) + 1;
-    
-    // Sum population
-    totalPopulation += location.population || 0;
-  });
-  
-  stats.averagePopulation = Math.round(totalPopulation / coastalLocations.length);
-  
-  res.json(stats);
+    res.json(stats);
+  } catch (error) {
+    console.error('Stats error:', error);
+    res.status(500).json({ error: 'Failed to fetch statistics' });
+  }
 });
 
 // Get locations by risk level
-app.get('/api/coastal/risk/:level', (req, res) => {
-  const riskLevel = req.params.level.toLowerCase();
-  const filtered = coastalLocations.filter(location => 
-    location.risk_level === riskLevel
-  );
-  
-  res.json(filtered);
+app.get('/api/coastal/risk/:level', async (req, res) => {
+  try {
+    const level = req.params.level.toLowerCase();
+    const { data: filteredLocations, error } = await supabase
+      .from('coastal_locations')
+      .select('*')
+      .eq('risk_level', level)
+      .order('id');
+    
+    if (error) throw error;
+    
+    if (!filteredLocations || filteredLocations.length === 0) {
+      return res.status(404).json({ error: `No locations found with risk level: ${level}` });
+    }
+    
+    res.json(filteredLocations);
+  } catch (error) {
+    console.error('Risk level filter error:', error);
+    res.status(500).json({ error: 'Failed to filter by risk level' });
+  }
 });
 
 // Error handling middleware

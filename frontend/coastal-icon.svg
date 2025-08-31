@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#waveGradient)" stroke="#0369a1" stroke-width="2"/>
+  
+  <!-- Wave Pattern -->
+  <path d="M15 45 Q25 35, 35 45 T55 45 T75 45 T95 45" stroke="white" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M10 55 Q20 45, 30 55 T50 55 T70 55 T90 55" stroke="white" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M20 65 Q30 55, 40 65 T60 65 T80 65" stroke="white" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Shield/Protection Symbol -->
+  <path d="M50 25 L58 30 L58 45 Q58 52, 50 55 Q42 52, 42 45 L42 30 Z" fill="white" opacity="0.9"/>
+  <path d="M46 38 L49 41 L54 36" stroke="#0284c7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
