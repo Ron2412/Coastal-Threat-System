@@ -19,9 +19,11 @@ const initializeSupabase = async () => {
     const supabaseAnonKey = process.env.SUPABASE_ANON_KEY;
     const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-    if (!supabaseUrl || !supabaseAnonKey) {
+    if (!supabaseUrl || !supabaseAnonKey || supabaseUrl.includes('your-project')) {
       logger.warn('Supabase credentials not configured. Running in demo mode with mock data only.');
       logger.warn('To enable database features, set SUPABASE_URL and SUPABASE_ANON_KEY');
+      supabase = null;
+      supabaseAdmin = null;
       return { supabase: null, supabaseAdmin: null };
     }
 

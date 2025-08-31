@@ -14,6 +14,7 @@ const reportRoutes = require('./routes/reports');
 const alertRoutes = require('./routes/alerts');
 const predictionRoutes = require('./routes/predictions');
 const analyticsRoutes = require('./routes/analytics');
+const coastalRoutes = require('./routes/coastal');
 
 // Import middleware
 const { authenticateToken } = require('./middleware/auth');
@@ -232,6 +233,7 @@ app.get('/status', (req, res) => {
 
 // API routes
 app.use('/api/auth', authRoutes);
+app.use('/api/coastal', coastalRoutes); // Public coastal data endpoints
 app.use('/api/data/sensors', authenticateToken, sensorRoutes);
 app.use('/api/data/reports', authenticateToken, reportRoutes);
 app.use('/api/alerts', authenticateToken, alertRoutes);
