@@ -1,0 +1,30 @@
+{
+  "name": "coastal_threat",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A React-based frontend application for monitoring and analyzing coastal threats using interactive maps and data visualization.",
+  "main": "upload-csv-to-supabase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-supabase": "node test-supabase-connection.js",
+    "upload-csv": "node upload-csv-to-supabase.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ron2412/Coastal-Threat-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ron2412/Coastal-Threat-System/issues"
+  },
+  "homepage": "https://github.com/Ron2412/Coastal-Threat-System#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.56.1",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  }
+}
